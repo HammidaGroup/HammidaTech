@@ -1,0 +1,55 @@
+.header{
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(213, 210, 36);
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+
+}
+.header .left-head{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0px;
+ /* background-color: red; */
+ width: 50vw;
+}
+.left-head img{
+    height: 400px;
+    width: 200px;
+
+    
+}
+.header .right-head {
+    color: white;
+    /* background-color: black; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    gap: 10px;
+   
+ 
+}
+.right-head ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+ul li{
+    text-decoration: none;
+    cursor: pointer;
+}
+ul li:hover{
+    text-decoration: underline;
+    color: red;
+}
+.header img{
+    
+    height: 100px;
+}
