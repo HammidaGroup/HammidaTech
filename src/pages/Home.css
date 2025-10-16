@@ -154,7 +154,7 @@
   .main-div{
     flex-direction: column-reverse;
     align-items: stretch;
-    margin: 97px auto;
+    margin-top: 97px ;
   }
 
   .left-div, .right-div{
