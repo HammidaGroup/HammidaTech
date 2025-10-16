@@ -1,6 +1,6 @@
 // ...existing code...
 import Header from "../components/Header";
-import hamidImg from "../assets/hamidImg.png";
+import hamidImg from "../assets/hamidImg.webp";
 import "./About.css";
 
 const About = () => {

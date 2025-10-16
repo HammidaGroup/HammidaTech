@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import Header from "../components/Header";
-import hamidImg from "../assets/hamidImg.png";
+import hamidImg from "../assets/hamidImg.webp";
 import "./Home.css";
 import gsap from "gsap";
 import Servise from "./Servise";

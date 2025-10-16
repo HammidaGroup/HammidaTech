@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import hammidaTechLogo from "../assets/hammidaTechLogo.png";
+import hammidaTechLogo from "../assets/hammidaTechLogo.webp";
 import "./Header.css";
 const Header = ()=>{
 
