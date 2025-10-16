@@ -14,7 +14,9 @@
   --header-height: 80px;
   font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
-
+.main-div{
+    margin-top: 10px;
+}
 /* Left / Right panels */
 .left-div,
 .right-div{
@@ -147,7 +149,7 @@
   .left-div, .right-div{
     width: 100%;
     border-radius: 12px;
-    padding: 20px;
+    padding: 5px;
   }
 
   .img-bckg{
