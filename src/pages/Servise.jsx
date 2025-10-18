@@ -1,8 +1,41 @@
+import { useGSAP } from "@gsap/react";
 import Header from "../components/Header";
-
+import { useRef } from "react";
 import "./Servise.css";
 
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 const Servise = () => {
+   const sectionRef = useRef(null);
+  useGSAP(()=>{
+  if (!sectionRef.current) return;
+
+    const tl = gsap.fromTo(
+      sectionRef.current.querySelector(".container"),
+      { opacity: 0, scale: 0.95 },
+      {
+        opacity: 1,
+        scale: 1,
+        ease: "none",
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: "top 80%",   // when top of section hits 80% of viewport
+          end: "top 20%",     // when top of section hits 20% of viewport
+          scrub: true,
+          // markers: true,   // enable while debugging
+        },
+      }
+    );
+
+    return () => {
+      // cleanup if useGSAP supports returning cleanup; otherwise kill triggers manually
+      if (tl.scrollTrigger) tl.scrollTrigger.kill();
+      tl.kill();
+    }
+  })
+  // console.log(gsap.scrollTrigger);
+  
   return (
     <>
       <Header />

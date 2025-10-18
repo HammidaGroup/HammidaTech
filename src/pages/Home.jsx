@@ -7,6 +7,7 @@ import "./Home.css";
 import gsap from "gsap";
 import Servise from "./Servise";
 import About from "./About";
+import Contact from "./Contact";
 
 const Home = () => {
   const location = useLocation();
@@ -15,6 +16,7 @@ const Home = () => {
   const serviceRef = useRef(null);
   const aboutRef = useRef(null);
   const topRef = useRef(null);
+  const contactRef = useRef(null);
 
   // GSAP animation on load
   useGSAP(() => {
@@ -23,6 +25,7 @@ const Home = () => {
       scale: 0,
       duration: 2,
       stagger: 0.2,
+     
     });
     gsap.from(".right-div img", {
       opacity: 0,
@@ -43,7 +46,10 @@ const Home = () => {
       serviceRef.current.scrollIntoView({ behavior: "smooth" });
     } else if (location.pathname === "/about" && aboutRef.current) {
       aboutRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (location.pathname === "/" && topRef.current) {
+    }else if (location.pathname === "/contact" && contactRef.current) {
+      contactRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+     else if (location.pathname === "/" && topRef.current) {
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
   }, [location]);
@@ -96,6 +102,10 @@ const Home = () => {
       </div>
 
       {/* About Section */}
+      {/* contact Section */}
+      <div ref={contactRef} className="section-wrapper">
+        <Contact />
+      </div>
       <div ref={aboutRef} className="section-wrapper">
         <About />
       </div>
@@ -103,6 +113,7 @@ const Home = () => {
       {/* Just to sync with route */}
       <Routes>
         <Route path="/service" element={<></>} />
+        <Route path="/contact" element={<></>} />
         <Route path="/about" element={<></>} />
       </Routes>
     </>
