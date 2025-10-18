@@ -17,7 +17,7 @@
     gap: 10px;
     margin-left: 0px;
  /* background-color: red; */
- width: 50vw;
+ width: 33vw;
 }
 .left-head img{
     height: 400px;
@@ -54,4 +54,14 @@ ul li:hover{
 .header img{
     
     height: 100px;
+}
+
+@media (max-width:380px) {
+    .right-head ul {
+   
+    gap: 5px;
+    /* background-color: red; */
+
+}
+
 }
