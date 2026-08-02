@@ -56,6 +56,7 @@ const Servise = () => {
             <li>Google Business Profile setup and management</li>
             <li>Social media content and campaign design</li>
             <li>Performance marketing and lead generation</li>
+            <li>Election campaign management</li>
             <li>Business automation and conversion strategy</li>
           </ul>
 
