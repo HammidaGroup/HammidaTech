@@ -10,28 +10,29 @@ const About = () => {
       <main className="about-page">
         <section className="container">
           <div className="profile">
-            <img src={hamidImg} alt="Mohammad Hamid" />
+            <img src={hamidImg} alt="HammidaTech team profile" />
             <div className="bio">
-              <h1>About Me</h1>
+              <h1>About HammidaTech</h1>
               <p>
-                I'm Mohammad Hamid, founder of HammidaTech. I build fast, modern,
-                and scalable web apps with focus on clean code, performance and UX.
+                Founded by Md Hamid, HammidaTech is a premium startup agency based in Mumbai, helping ambitious brands scale through standout websites, high-quality app experiences, and smart digital growth systems.
               </p>
             </div>
           </div>
 
-          <h2>Skills</h2>
+          <h2>What We Deliver</h2>
           <ul className="skills">
-            <li>HTML, CSS, JavaScript</li>
-            <li>React, Vite</li>
-            <li>Node.js, Express, MongoDB</li>
-            <li>Performance & SEO</li>
+            <li>Web development</li>
+            <li>App UX strategy</li>
+            <li>SEO growth</li>
+            <li>Social content</li>
+            <li>Paid campaigns</li>
+            <li>Lead generation</li>
+            <li>Brand positioning</li>
           </ul>
 
-          <h2>Experience</h2>
+          <h2>Why Choose Us</h2>
           <p>
-            Worked on portfolios, SPAs and production apps for startups and small
-            businesses. I enjoy optimizing load times and delivering smooth UI.
+            We combine design thinking, technical execution, and digital marketing strategy to create brand experiences that look sharp and perform with measurable business impact.
           </p>
 
           <div className="cta">

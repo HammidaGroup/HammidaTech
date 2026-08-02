@@ -42,29 +42,25 @@ const Servise = () => {
       
       <main className="service-page">
         <section className="container">
-          <h1>Our Services</h1>
+          <h1>Our Digital Services</h1>
           <p>
-            I help businesses build fast, modern, and scalable websites that
-            drive real growth. Services tailored for startups and enterprises.
+            HammidaTech, led by Md Hamid, builds growth-ready digital systems for modern businesses, from polished websites and business apps to strategy-driven marketing execution.
           </p>
 
           <ul className="services-list">
-            <li>
-              <strong>Web Development:</strong> Responsive sites, SPAs, React/Vite
-            </li>
-            <li>
-              <strong>Backend & APIs:</strong> Node.js, Express, REST & GraphQL
-            </li>
-            <li>
-              <strong>E‑commerce:</strong> Custom stores, integrations, payments
-            </li>
-            <li>
-              <strong>Performance & SEO:</strong> Optimization, accessibility, best practices
-            </li>
+            <li>Custom website design and development</li>
+            <li>Responsive web application development</li>
+            <li>Mobile-friendly landing pages and funnels</li>
+            <li>Brand identity and UI/UX design systems</li>
+            <li>SEO and local search optimization</li>
+            <li>Google Business Profile setup and management</li>
+            <li>Social media content and campaign design</li>
+            <li>Performance marketing and lead generation</li>
+            <li>Business automation and conversion strategy</li>
           </ul>
 
           <div className="cta">
-            <a className="btn" href="/contact">Get a Quote</a>
+            <a className="btn" href="/contact">Request a Proposal</a>
           </div>
         </section>
       </main>

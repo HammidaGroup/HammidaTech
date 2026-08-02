@@ -57,42 +57,43 @@ const Home = () => {
   return (
     <>
       <Header />
+      <div className="home-mainDiv">
+
       <div ref={topRef} className="main-div">
         <div className="left-div">
           <h1>
-            👋 Hi, I’m <span className="highlight">Mohammad Hamid</span>
+            Build your <span className="highlight">premium startup</span> brand
           </h1>
           <h2>
-            Founder of <span className="highlight">HammidaTech</span> | Web Developer
+            HammidaTech • Web Development • App Development • Digital Marketing
           </h2>
           <p>
-            I help businesses build <strong>fast, modern, and scalable websites</strong> that
-            drive real growth. As the founder of <strong>HammidaTech</strong> — a part of{" "}
-            <strong>Hammida Group</strong> — my focus is on <strong>clean code</strong>,{" "}
-            <strong>smooth design</strong>, and <strong>high performance</strong> to deliver
-            impactful digital experiences.
+            HammidaTech helps ambitious startups and modern businesses launch high-converting websites, polished app experiences, and growth campaigns that drive measurable revenue.
           </p>
-          <p>
-            From personal portfolios to advanced web applications, I turn ideas into
-            fully functional digital realities.
-          </p>
-
+          <ul style={{marginTop: '1em', marginBottom: '1em'}}>
+            <li>Custom website design and development</li>
+            <li>Responsive web applications and dashboards</li>
+            <li>Mobile app UI concepts and product experiences</li>
+            <li>SEO, Google Business Profile, and content strategy</li>
+            <li>Social media growth and paid ad campaigns</li>
+            <li>Brand visibility and lead generation systems</li>
+          </ul>
           <div className="tech-info">
             <p>
-              <strong>💻 Tech Stack:</strong> HTML, CSS, JavaScript, Node.js, Express, MongoDB
+              <strong>📍 Based in:</strong> Mumbai, India
             </p>
             <p>
-              <strong>🌍 Based in:</strong> Mumbai, India
+              <strong>📞 WhatsApp:</strong> 7571950460
             </p>
           </div>
         </div>
 
         <div className="right-div">
           <div className="img-bckg">
-            <img src={hamidImg} alt="hamid img" />
+            <img src={hamidImg} alt="digital agency showcase" />
           </div>
-          <strong>Owner : </strong>
-          <p>Md Hamid</p>
+          <strong>Founder : MD Hamid</strong>
+          <p>Tech Agency • Web • App • Marketing</p>
         </div>
       </div>
 
@@ -110,6 +111,7 @@ const Home = () => {
         <About />
       </div>
 
+      </div>
       {/* Just to sync with route */}
       <Routes>
         <Route path="/service" element={<></>} />

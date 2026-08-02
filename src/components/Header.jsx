@@ -7,7 +7,7 @@ const Header = ()=>{
         <>
         <div className="header">
             <div className="left-head">
-                <img src={hammidaTechLogo} alt="hammidaTechLogo" />
+                <img src={hammidaTechLogo} alt="HammidaTech logo" />
             </div>
             <div className="right-head">
                 <ul>

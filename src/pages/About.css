@@ -3,7 +3,7 @@
 .about-page {
   min-height: calc(100vh - 80px);
   padding: 40px 20px;
-  background:#b4c83f;
+  background: linear-gradient(180deg, #f8fbff 0%, #eef4ff 100%);
   color: #0f172a;
   display: flex;
   justify-content: center;
@@ -15,8 +15,8 @@
   max-width: 980px;
   background: #fff;
   padding: 32px;
-  border-radius: 10px;
-  box-shadow: 0 8px 24px rgba(2,6,23,0.06);
+  border-radius: 18px;
+  box-shadow: 0 12px 34px rgba(15, 23, 42, 0.12);
 }
 
 .profile {
@@ -55,15 +55,15 @@
 }
 
 .skills li {
-  background: #b4c83f;
+  background: linear-gradient(135deg, #dbeafe 0%, #e0f2fe 100%);
   color: #0b1220;
   padding: 8px 12px;
-  border-radius: 8px;
-  font-weight: 600;
+  border-radius: 10px;
+  font-weight: 700;
 }
 .skills li:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 24px  rgb(113, 112, 31);
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.18);
 }
 .cta {
   margin-top: 18px;
@@ -71,12 +71,12 @@
 
 .btn {
   display: inline-block;
-  
+  background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 100%);
   color: #fff;
   padding: 10px 16px;
-  border-radius: 8px;
+  border-radius: 10px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 @media (max-width: 640px) {
