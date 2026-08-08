@@ -1,6 +1,7 @@
 // ...existing code...
 import Header from "../components/Header";
 import hamidImg from "../assets/hamidImg.webp";
+import hammidaTechIcon from "/hammidaTechIcon.jpeg";
 import "./About.css";
 
 const About = () => {
@@ -10,7 +11,7 @@ const About = () => {
       <main className="about-page">
         <section className="container">
           <div className="profile">
-            <img src={hamidImg} alt="HammidaTech team profile" />
+            <img src={hammidaTechIcon} alt="HammidaTech company icon" />
             <div className="bio">
               <h1>About HammidaTech</h1>
               <p>
