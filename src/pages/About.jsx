@@ -15,7 +15,7 @@ const About = () => {
             <div className="bio">
               <h1>About HammidaTech</h1>
               <p>
-                Founded by Md Hamid, HammidaTech is a premium startup agency based in Mumbai, helping ambitious brands scale through standout websites, high-quality app experiences, and smart digital growth systems.
+                Founded by Md Hamid, HammidaTech is a premium startup agency based in Azamgarh, helping ambitious brands scale through standout websites, high-quality app experiences, and smart digital growth systems.
               </p>
             </div>
           </div>

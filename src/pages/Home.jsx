@@ -80,7 +80,7 @@ const Home = () => {
           </ul>
           <div className="tech-info">
             <p>
-              <strong>📍 Based in:</strong> Mumbai, India
+              <strong>📍 Based in:</strong> Azamgarh, India
             </p>
             <p>
               <strong>📞 WhatsApp:</strong> 7571950460
