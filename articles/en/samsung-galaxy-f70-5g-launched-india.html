@@ -123,11 +123,57 @@
 
   </main>
 
-  <footer>
-    <a class="logo" href="/">Hammida<span>Tech</span></a>
-    <p>Simple and useful technology guides.</p>
-    <div><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy-policy/">Privacy Policy</a></div>
-    <small>© 2026 HammidaTech</small>
-  </footer>
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <a class="logo" href="/" aria-label="HammidaTech Home">
+        <img
+          src="/hammidatechLogo.webp"
+          alt="HammidaTech Logo"
+          width="42"
+          height="42"
+          loading="lazy"
+        >
+        <span>Hammida<span class="logo-highlight">Tech</span></span>
+      </a>
+
+      <p>
+        Tech made easy. Discover useful AI tools, technology news,
+        mobile tips and simple how-to guides.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <a href="/">Home</a>
+      <a href="/about/">About Us</a>
+      <a href="/contact/">Contact Us</a>
+    </div>
+
+    <div class="footer-links">
+      <h3>Legal</h3>
+      <a href="/privacy-policy/">Privacy Policy</a>
+      <a href="/disclaimer/">Disclaimer</a>
+      <a href="/terms-and-conditions/">Terms & Conditions</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>
+      © <span id="footer-year">2026</span> HammidaTech.
+      All rights reserved.
+    </p>
+    <p>Made for curious minds.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("footer-year").textContent =
+    new Date().getFullYear();
+</script>
+
+  <script src="../../js/script.js"></script>
 </body>
 </html>
